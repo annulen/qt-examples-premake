@@ -1,0 +1,12 @@
+*.o
+moc_*
+qrc_*
+*.moc
+*.pro.user
+Makefile
+QtTvNDS
+*.rcc
+*~
+tags
+.browser
+
