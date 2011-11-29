@@ -1,7 +1,17 @@
-This project demonstrates using Premake for Qt projects.
+Qt Examples for Premake
+=======================
+
+This project demonstrates using Premake [1] build system for Qt-based projects.
+
+Premake reads project configurations from file "premake4.lua" in each subdirectory.
+
+How to build
+-------------
 
 1. Download the next file to the current directory:
 https://raw.github.com/gist/1312957/1f791d4a2b630159074e84dc1a90be860e5c78bc/qt-support.lua
 
 2. Run
 premake4
+
+[1] http://industriousone.com/premake
