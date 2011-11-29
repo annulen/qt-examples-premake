@@ -1,0 +1,7 @@
+This project demonstrates using Premake for Qt projects.
+
+1. Download the next file to the current directory:
+https://raw.github.com/gist/1312957/1f791d4a2b630159074e84dc1a90be860e5c78bc/qt-support.lua
+
+2. Run
+premake4
