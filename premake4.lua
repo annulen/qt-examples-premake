@@ -5,9 +5,10 @@ _ACTION = _ACTION or "gmake"
 solution "QtExamples"
     configurations { "Debug", "Release" }
 
-    --include "audiodevices"
+    include "audiodevices"
     include "fancybrowser"
     include "saxbookmarks"
     include "schema"
+    include "textures"
     include "validators"
     -- include "qmusicplayer"
