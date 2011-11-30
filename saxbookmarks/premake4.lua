@@ -1,7 +1,5 @@
 project "saxbookmarks"
-    kind "WindowedApp"
-    language "C++"
-    uses { "Qt", "QtXml" }
+    uses "QtXml"
     files {
         "mainwindow.h",
         "mainwindow.cpp",

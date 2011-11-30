@@ -4,6 +4,9 @@ _ACTION = _ACTION or "gmake"
 
 solution "QtExamples"
     configurations { "Debug", "Release" }
+    kind "WindowedApp"
+    language "C++"
+    uses "Qt"
 
     include "audiodevices"
     include "fancybrowser"

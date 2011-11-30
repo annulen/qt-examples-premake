@@ -1,7 +1,5 @@
 project "schema"
-    kind "WindowedApp"
-    language "C++"
-    uses { "Qt", "QtXmlPatterns" }
+    uses "QtXmlPatterns"
     includedirs "../shared"
     files {
         "../shared/xmlsyntaxhighlighter.h",

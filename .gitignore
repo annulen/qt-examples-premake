@@ -1,4 +1,6 @@
 *.o
+*.d
+ui_*
 moc_*
 qrc_*
 *.moc

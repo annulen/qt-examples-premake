@@ -1,6 +1,4 @@
 project "audiodevices"
-    kind "WindowedApp"
-    language "C++"
     uses "QtMultimedia"
     files {
         "audiodevices.h",

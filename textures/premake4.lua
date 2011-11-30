@@ -1,7 +1,5 @@
 project "textures"
-    kind "WindowedApp"
-    language "C++"
-    uses { "Qt", "QtOpenGL" }
+    uses "QtOpenGL"
     files {
         "glwidget.h",
         "glwidget.cpp",
