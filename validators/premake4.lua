@@ -1,4 +1,5 @@
 project "validators"
+    includedirs "."
     files {
         "ledwidget.h",
         "ledwidget.cpp",
