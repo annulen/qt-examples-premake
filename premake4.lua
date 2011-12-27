@@ -27,3 +27,7 @@ solution "QtExamples"
     -- include "qmusicplayer"
     include "demos/gradients"
     include "demos/shared"
+
+    include "plugandpaint"
+    include "plugandpaintplugins/basictools"
+    include "plugandpaintplugins/extrafilters"
