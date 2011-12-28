@@ -1,4 +1,4 @@
-project "gradients_shared"
+project "gradients"
     uses "QtOpenGl"
     defines "QT_OPENGL_SUPPORT"
     includedirs "../shared"
