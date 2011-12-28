@@ -3,10 +3,10 @@ project "extrafilters"
     includedirs "../.."
     kind "SharedLib"
     uses "QtGui"
-    if _OPTIONS.to then
-        targetdir( _OPTIONS.to .. "/plugins")
+    if solution().location then
+        targetdir(solution().location .. "/plugins")
     else
-        targetdir "plugins"
+        targetdir "../../plugandpaint/plugins"
     end
     files {
         "extrafiltersplugin.h",
