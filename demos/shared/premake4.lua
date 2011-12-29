@@ -1,5 +1,5 @@
 project "shared"
-    kind "StaticLib"
+    kind "SharedLib"
     uses "QtOpenGl"
     includedirs "."
     defines "QT_OPENGL_SUPPORT"
