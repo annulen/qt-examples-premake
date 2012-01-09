@@ -5,13 +5,15 @@ This project demonstrates using Premake [1] build system for Qt-based projects.
 
 Premake reads project configurations from file "premake4.lua" in each subdirectory.
 
+Directory "simplesolution" contains minimal example of solution with 1 project.
+
 How to build
 -------------
 
-1. Download the next file to the current directory:
-https://raw.github.com/gist/1312957/1f791d4a2b630159074e84dc1a90be860e5c78bc/qt-support.lua
+Run the next commands in root directory and in simplesoltion directory:
 
-2. Run
-premake4
+  premake4
+  make
+
 
 [1] http://industriousone.com/premake
